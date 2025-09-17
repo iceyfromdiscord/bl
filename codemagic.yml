@@ -1,0 +1,8 @@
+workflows:
+  run-cli:
+    name: run
+    scripts:
+      - name: start
+        script: |
+          whoami
+          pwd
