@@ -1,6 +1,8 @@
 workflows:
   run-cli:
     name: run
+    environment:
+      node: latest
     scripts:
       - name: start
         script: |
